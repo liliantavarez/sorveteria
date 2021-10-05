@@ -1,2 +1,2 @@
-# sorveteria
- Projeto colaborativo dejenvolvido na disciplina de Métodos Avançdos de Programação (MAP)
+# Sorveteria barraca da bicha 🍨
+ Projeto colaborativo desenvolvido na disciplina de Métodos Avançdos de Programação (MAP)
