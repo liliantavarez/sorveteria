@@ -1,11 +1,13 @@
 package br.com.sorveteria.armazenamento;
+import br.com.sorveteria.objetos.Vendas;
 
-import br.com.sorveteria.objetos.Produtos;
 import java.util.ArrayList;
+
+//Padrão Singleton tem como definição garantir que uma classe tenha apenas uma instância de si mesma e que forneça um ponto global de acesso a ela;
 
 public class ArmazenamentoVendas {
     private static ArmazenamentoVendas instance;
-    private ArrayList<Produtos> produtosVendidos;
+    private ArrayList<Vendas> produtosVendidos;
 
     public static ArmazenamentoVendas getInstance(){
         if (instance==null){
@@ -14,12 +16,12 @@ public class ArmazenamentoVendas {
         return instance;
     }
     private ArmazenamentoVendas(){
-        produtosVendidos = new ArrayList<Produtos>();
+        produtosVendidos = new ArrayList<Vendas>();
     }
-    public void armazenamentoVendas(Produtos produtoVendido){
+    public void armazenamentoVendas(Vendas produtoVendido){
         produtosVendidos.add(produtoVendido);
     }
-    public ArrayList<Produtos> produtosVendidos(){
+    public ArrayList<Vendas> produtosVendidos(){
         return produtosVendidos;
     }
 }
