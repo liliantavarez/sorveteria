@@ -3,4 +3,4 @@
  
 Equipe: Italo, Kelven e Lilian
 
-![Imagen do menu principal](https://raw.githubusercontent.com/liliantavarez/sorveteria/main/menu.jpg)
+![Imagen do menu principal](https://raw.githubusercontent.com/liliantavarez/sorveteria/main/imagens/menu.jpg)
