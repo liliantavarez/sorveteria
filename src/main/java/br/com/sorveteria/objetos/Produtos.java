@@ -2,12 +2,12 @@ package br.com.sorveteria.objetos;
 
 public class Produtos {
 
+    private int idProduto;
     private String sabor;
     private String tipo;
     private double valorCompra;
     private double valorVenda;
     private int quantidade;
-    private int idProduto;
 
     public Produtos(){
     }

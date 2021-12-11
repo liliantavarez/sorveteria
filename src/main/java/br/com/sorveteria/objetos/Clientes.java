@@ -2,11 +2,18 @@ package br.com.sorveteria.objetos;
 
 public class Clientes {
 
+    private int idCliente;
     private String nome;
     private String endereco;
     private double dividas;
     private int cartaoFidelidade;
-    private int idCliente;
+
+    public Clientes(String nome, String endereco, double dividas, int cartaoFidelidade) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.dividas = dividas;
+        this.cartaoFidelidade = cartaoFidelidade;
+    }
 
     public int getIdCliente() {
         return idCliente;
@@ -17,13 +24,6 @@ public class Clientes {
     }
 
     public Clientes() {
-    }
-
-    public Clientes(String nome, String endereco, double dividas, int cartaoFidelidade) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.dividas = dividas;
-        this.cartaoFidelidade = cartaoFidelidade;
     }
 
     public String getNome() {
